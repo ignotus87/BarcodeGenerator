@@ -8,7 +8,7 @@ Simply open it in Visual Studio, build it then run it.
 
 ## How to use
 
-Type in the text you want to be the content of the bercode, the barcode image then updated automatically.
+Type in the text you want to be the content of the barcode, the barcode image then updated automatically.
 
 ## Improvements needed
 
