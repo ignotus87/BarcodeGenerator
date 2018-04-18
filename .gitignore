@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/bin/Debug
+/obj/Debug
+/packages/ZXing.Net.0.16.4/lib
+/packages/ZXing.Net.0.16.4

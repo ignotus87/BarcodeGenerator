@@ -1,0 +1,24 @@
+﻿<Window x:Class="BarcodeGenerator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BarcodeGenerator"
+        mc:Ignorable="d"
+        Title="Barcode Generator" Height="350" Width="525" MinHeight="250">
+    <Window.Resources>
+        <Style TargetType="{x:Type Label}" x:Key="TitleLabelStyle">
+            <Setter Property="FontWeight" Value="Bold" />
+            <Setter Property="Margin" Value="0 10 0 3" />
+        </Style>
+    </Window.Resources>
+    <Grid Margin="10">
+        <StackPanel>
+            <Label Style="{StaticResource TitleLabelStyle}">Type in the content of the barcode</Label>
+            <TextBox Text="{Binding BarcodeContent, UpdateSourceTrigger=PropertyChanged}" />
+
+            <Label Style="{StaticResource TitleLabelStyle}">Barcode image</Label>
+            <Image Source="{Binding BarcodeBitmap}" />
+        </StackPanel>
+    </Grid>
+</Window>
