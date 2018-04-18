@@ -19,7 +19,7 @@ Type in the text you want to be the content of the bercode, the barcode image th
 ## Contribute
 
 Contributions are always welcome!
-Please read the [contribution guidelines](contributing.md) first.
+Please read the [contribution guidelines](CONTRIBUTING.md) first.
 
 ## License
 
